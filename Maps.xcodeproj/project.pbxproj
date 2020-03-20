@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763198FA242512D400752306 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763198F9242512D400752306 /* SampleViewController.m */; };
 		7694E605232FF2770068B81B /* GuideSelectedNew@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7694E604232FF2760068B81B /* GuideSelectedNew@1x.png */; };
 		7694E609232FFA4D0068B81B /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = 7694E608232FFA4D0068B81B /* point.png */; };
 		76BF091C232F9D810066E0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF091B232F9D810066E0A0 /* AppDelegate.swift */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		763198F8242512D400752306 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		763198F9242512D400752306 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		7694E604232FF2760068B81B /* GuideSelectedNew@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GuideSelectedNew@1x.png"; sourceTree = "<group>"; };
 		7694E608232FFA4D0068B81B /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
 		76BF0918232F9D810066E0A0 /* hhh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hhh.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +88,8 @@
 		76BF090F232F9D810066E0A0 = {
 			isa = PBXGroup;
 			children = (
+				763198F8242512D400752306 /* SampleViewController.h */,
+				763198F9242512D400752306 /* SampleViewController.m */,
 				76BF091A232F9D810066E0A0 /* Maps */,
 				76BF092F232F9D830066E0A0 /* MapsTests */,
 				76BF093A232F9D830066E0A0 /* MapsUITests */,
@@ -274,6 +279,7 @@
 			files = (
 				76BF091E232F9D810066E0A0 /* ViewController.swift in Sources */,
 				76DB5FA2234CB2EA00CF1FC2 /* HBVLinkedTextView.m in Sources */,
+				763198FA242512D400752306 /* SampleViewController.m in Sources */,
 				76BF091C232F9D810066E0A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
